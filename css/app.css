@@ -10,8 +10,12 @@
 .secondary-bg{
     background-color: rgba(201, 156, 32, 0.966) !important;
 }
+.grey-text{
+    color: rgb(99, 100, 99) !important;
+}
 .navbar {
     border-radius: 0;
+    border-bottom: 5px solid rgba(201, 156, 32, 0.966);
 }
 .navbar-header a:hover{
     color: white !important;
@@ -23,11 +27,16 @@
 .section-title{
     color: rgba(201, 156, 32, 0.966);
     font-size: 28px;
+    font-weight: bold;
 }
 .section-subtitle{
     color: rgb(23, 26, 44);
     font-size: 24px;
     font-weight: bold;
+}
+.section-description{
+    font-size: 15px;
+    color: rgb(99, 100, 99);
 }
 .gap{
     padding: 20px 0;
@@ -38,7 +47,19 @@
 .gap-large{
     padding: 30px 0;
 }
-
+.btn-primary{
+    background-color: rgb(23, 26, 44);
+}
+.btn-primary:hover{
+    background-color: rgb(47, 49, 65);
+}
+#dashboard {
+    border-top: 5px solid rgba(201, 156, 32, 0.966);
+    border-bottom: 5px solid rgba(201, 156, 32, 0.966);
+}
+#certifications .thumbnail{
+    min-height: 450px;
+}
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: white !important;
     background-color: rgb(47, 49, 65) !important;
@@ -56,7 +77,16 @@
     margin-top: 50px !important;
     margin-bottom: 50px !important;
 }
-
+#footer{
+    padding: 30px 0;
+}
+#footer a {
+    color: white !important;
+}
+#sub-footer {
+    padding: 20px 0;
+}
+/* 
 .myMar_pic {
     margin-top: 50px !important;
     margin-bottom: 50px !important;
@@ -86,4 +116,4 @@ p {
 
 .hover_color:hover {
     color: rgba(201, 156, 32, 0.966);
-}
+} */
