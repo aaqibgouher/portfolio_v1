@@ -1,0 +1,89 @@
+.primary-text{
+    color: rgb(23, 26, 44) !important;
+}
+.primary-bg{
+    background-color: rgb(23, 26, 44) !important;
+}
+.secondary-text{
+    color: rgba(201, 156, 32, 0.966) !important;
+}
+.secondary-bg{
+    background-color: rgba(201, 156, 32, 0.966) !important;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar-header a:hover{
+    color: white !important;
+    background-color: rgb(47, 49, 65) !important;
+}
+.nav {
+    font-size: 16px;
+}
+.section-title{
+    color: rgba(201, 156, 32, 0.966);
+    font-size: 28px;
+}
+.section-subtitle{
+    color: rgb(23, 26, 44);
+    font-size: 24px;
+    font-weight: bold;
+}
+.gap{
+    padding: 20px 0;
+}
+.gap-small{
+    padding: 10px 0;
+}
+.gap-large{
+    padding: 30px 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: white !important;
+    background-color: rgb(47, 49, 65) !important;
+}
+
+.row_size {
+    font-size: 20px;
+}
+
+.row_color {
+    color: rgba(201, 156, 32, 0.966);
+}
+
+#about-me {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.myMar_pic {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.myPad {
+    padding : 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.font_color {
+    color: rgb(41, 46, 70);
+}
+
+.font_color_white {
+    color: ghostwhite;
+}
+
+.row_color_back {
+    background-color : rgba(201, 156, 32, 0.966);
+    text-align: center;
+    color: ghostwhite;
+}
+
+.hover_color:hover {
+    color: rgba(201, 156, 32, 0.966);
+}
